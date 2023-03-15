@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.15rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)), url(/My_Gallery_Project/assets/images/background.jpg);
+    height: 98vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}    
+.header .navbar ul{
+    text-align: right;
+}
+.header .navbar li{
+    /* border: 2px solid #fff; */
+    padding: 0.8rem 1.4rem;
+    margin: 1rem;
+    display: inline-block;
+}
+.header .navbar a{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.outer-box{
+    max-width: 1200;
+    width: 80%;
+    margin: 0px auto;
+}
+.header .our-work{
+    position: absolute;
+    /* border: 2px solid silver; */
+    height: 30%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    padding-top: 2rem;
+}
+.our-work h1, p, a{
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2.6rem;
+}
+.btn a{
+        display: grid;
+        border: 1px solid white;
+        border-radius: 1rem;
+        background-color: aliceblue;
+        color: red;
+        font-weight: 700;
+        padding: 0.3rem 1rem;
+        text-transform: uppercase;
+        margin: 1rem 2.4rem;
+        text-decoration: none;
+        align-items: center;
+}
+.showcase{
+    background-color:rgb(211, 174, 120);
+    padding: 4rem;
+}
+.showcase .border-box1{
+    /* border: 0.1rem solid rgb(230, 50, 50); */
+    height: 25rem;
+    margin: 4rem;
+    box-shadow: 7px 7px 30px 0px #000;
+}
+.showcase .border-box1 .img1{
+    float: left;
+    width: 50%;
+    /* border: 2px solid green; */
+    height: 100%;
+}
+.showcase .border-box1 .text1{
+    float: right;
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 100%;
+    padding: 0.3rem;
+}
+.showcase .border-box1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.showcase .border-box2{
+    /* border: 0.1rem solid rgb(235, 39, 39); */
+    height: 25rem;
+    margin: 4rem;
+    box-shadow: 7px 7px 30px 0px #000;
+}
+.showcase .border-box2 .img2{
+    float: right;
+    width: 50%;
+    /* border: 2px solid green; */
+    height: 100%;
+}
+.showcase .border-box2 .text2{
+    float: left;
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 100%;
+    padding: 0.3rem;
+}
+.showcase .border-box2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.border-box1 p,
+.border-box2 p,
+.border-box3 p,
+.border-box4 p{
+    line-height: 1.6rem;
+    color: black;
+}
+.showcase .border-box3{
+    /* border: 0.1rem solid rgb(230, 50, 50); */
+    height: 25rem;
+    margin: 4rem;
+    box-shadow: 7px 7px 30px 0px #000;
+}
+.showcase .border-box3 .img3{
+    float: left;
+    width: 50%;
+    /* border: 2px solid green; */
+    height: 100%;
+}
+.showcase .border-box3 .text3{
+    float: right;
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 100%;
+    padding: 0.3rem;
+}
+.showcase .border-box3::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.showcase .border-box4{
+    /* border: 0.1rem solid rgb(230, 50, 50); */
+    height: 25rem;
+    margin: 4rem;
+    box-shadow: 7px 7px 30px 0px #000;
+}
+.showcase .border-box4 .img4{
+    float: right;
+    width: 50%;
+    /* border: 2px solid green; */
+    height: 100%;
+}
+.showcase .border-box4 .text4{
+    float: left;
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 100%;
+    padding: 0.3rem;
+}
+.showcase .border-box4::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.border-box1 .img1 img,
+.border-box2 .img2 img,
+.border-box3 .img3 img,
+.border-box4 .img4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.showcase .border-box2 h1,
+.showcase .border-box1 h1,
+.showcase .border-box3 h1,
+.showcase .border-box4 h1{
+    text-align: center;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    /* border: 2px solid palevioletred; */
+}
+.showcase .text1,
+.showcase .text2,
+.showcase .text3,
+.showcase .text4{
+    background-color: #fff;
+}
+.footer{
+    background-color: black;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.social-media i{
+    margin: 20px;
+}
+.border-box1 .text1 .like-dis a,
+.border-box2 .text2 .like-dis a,
+.border-box3 .text3 .like-dis a,
+.border-box4 .text4 .like-dis a{
+    /* margin: 2rem; */
+    color: black;
+    border: 2px solid red;
+    margin: 2rem;
+    padding: 0.7rem;
+    margin-top: 4rem;
+    display: inline;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.like-dis .likes{
+    float: left;
+    width: 50%;
+}
+.like-dis .dislikes{
+    float: right;
+    width: 50%;
+}
+.like-dis::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.like-dis{
+    /* border: 2px solid green; */
+    padding: 0.5rem;
+}
+.like-dis a:hover{
+    background-color: red;
+}
+input{
+    /* margin-top: -100px; */
+    /* margin-left: 15px; */
+    width: 60%;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: none;
+    font-size: 20px;
+}
+.border-box1{
+    transition: 0.8s;
+}
+.border-box1:hover{
+    transform: scale(1.1);
+}
+.border-box2{
+    transition: 0.8s;
+}
+.border-box2:hover{
+    transform: scale(1.1);
+}
+.border-box3{
+    transition: 0.8s;
+}
+.border-box3:hover{
+    transform: scale(1.1);
+}
+.border-box4{
+    transition: 0.8s;
+}
+.border-box4:hover{
+    transform: scale(1.1);
+    pointer-events: painted;
+}
